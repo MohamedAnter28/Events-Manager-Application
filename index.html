@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events Manager Application</title>
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!--  -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-THVEWTSEKP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-THVEWTSEKP');
+  </script>
+</head>
+<body>
+  <div class="heading">Events Manager Application</div>
+  <div class="container">
+    <div class="mainDiv">
+      <h3>Add Event</h3>
+      <form action="">
+        <input type="text" name="event-name" id="event-name" placeholder="Event Name">
+        <input type="text" name="event-organizer" id="event-organizer" placeholder="Event Organizer">
+        <input type="date" name="event-date" id="event-date">
+        <button type="submit" class="btn add">Add Event</button>
+      </form>
+    </div>
+  </div>
+  <div class="events"></div>
+  <script src="script.js"></script>
+</body>
+</html>
